@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Comic Sans MS, Comic Sans, cursive, sans-serif;
+  color: #fff;
+  background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+  background-size: 500% 500%;
+
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 50px;
+}

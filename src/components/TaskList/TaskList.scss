@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #000;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+}

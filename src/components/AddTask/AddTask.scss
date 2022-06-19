@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__input {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 15px;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #fff;
+
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+      border-color: aqua;
+    }
+
+    &:focus {
+      transform: scale(1.05);
+      border-color: aqua;
+      outline: none;
+    }
+  }
+
+  &__submit {
+    display: flex;
+    align-items: center;
+
+    outline: none;
+    border: 0;
+    background: transparent;
+
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.07);
+    }
+  }
+}
+
+::placeholder { 
+  color: #fff;
+}

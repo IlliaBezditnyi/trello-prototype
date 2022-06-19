@@ -3,5 +3,6 @@
 # Technologies used in project:
 - SCSS
 - BEM
+- TypeScript
 - React + react-beautiful-dnd
 
